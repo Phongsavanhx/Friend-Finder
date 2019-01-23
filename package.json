@@ -1,0 +1,25 @@
+{
+  "name": "Friend-Finder",
+  "version": "1.0.0",
+  "description": "Friend Finder is a friend matching app based on the user's responses to a ten question survey.  The user answers questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree).  When the survey is submitted, an existing user record closest to the current user's responses is found and returned.  The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phongsavanhx/Friend-Finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phongsavanhx/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Phongsavanhx/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "paths": "^0.1.1"
+  }
+}
